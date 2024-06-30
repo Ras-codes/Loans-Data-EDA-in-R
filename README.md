@@ -86,15 +86,6 @@ This repository contains code and resources for Exploratory Data Analysis (EDA) 
 
 # Data Preparation:
 
-Data can have different sorts of quality issues. It is essential that you clean and preperate your data to be analyzed.  Therefore, these issues must be addressed before data can be analyzed.
-
-### Checking the variable names for appropriate naming convention-
-
-- # ------------------------------------------------------------------------------
-
-
-# Data Preparation:
-
 - Data can have different sorts of quality issues. It is essential that you clean and preperate your data to be analyzed.  Therefore, these issues must be addressed before data can be analyzed.
 
 - Data Preparation for Exploratory Data Analysis (EDA) on Loans Data, featuring data cleaning (e.g., replacing '.' with '_' or removing character like %, >, <, etc in column names), datatype conversion (from chr to numeric), and visualization using tidyverse and ggplot2 in R.
