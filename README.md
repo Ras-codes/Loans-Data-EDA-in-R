@@ -10,6 +10,5 @@ Performing Exploratory Data Analysis on Loans Data aiming to uncover insights an
 
 
 <div align="center">
-  <img src="![image](https://github.com/Ras-codes/Loans-Data-EDA-in-R/assets/164164852/63e4995d-4583-4438-958d-90c0b72e2f9f)
-">
+  <img src="https://github.com/Ras-codes/Loans-Data-EDA-in-R/assets/164164852/63e4995d-4583-4438-958d-90c0b72e2f9f">
 </div>
