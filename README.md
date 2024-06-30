@@ -52,3 +52,73 @@ Performing Exploratory Data Analysis on Loans Data aiming to uncover insights an
 | Revolving_CREDIT_Balance      | integer   | Total revolving credit balance of the borrower          |
 | Inquiries_in_the_Last_6_Months| integer   | Number of credit inquiries in the last 6 months         |
 | Employment_Length             | numeric   | Length of employment in years                           |
+
+
+
+# ------------------------------------------------------------------------------
+
+
+# Exploratory Data Analysis
+
+This repository contains code and resources for Exploratory Data Analysis (EDA) on Loans Data. The project showcases data manipulation techniques using the R programming language. It covers essential operations such as data loading, cleaning, handling missing values, outliers detection, transformation, analysis, and data visualization using popular libraries like dplyr, tidyr, ggplot2, and corrplot. The repository includes scripts and notebooks with detailed explanations, datasets for practice, and examples illustrating various data manipulation tasks and visualizations.
+
+
+# ------------------------------------------------------------------------------
+
+
+# Insights from the Dataset
+
+- After importing the dataset, our first step is to check if the data is imported properly, we can use `dim(data)` to check the number of observations (rows) and features (columns) in the dataset
+- Output will be : ![image](https://github.com/Ras-codes/Loans-Data-EDA-in-R/assets/164164852/f49d0c87-dbf5-4454-8e87-8fe8e6f25278)
+- which means that the dataset contains 2500 records and 15 variables.
+- We will now use `head(data)` to display the top 6 observations of the dataset
+- ![image](https://github.com/Ras-codes/Loans-Data-EDA-in-R/assets/164164852/4fecd073-0207-40f4-abe0-0d0001ddbc80)
+- To check the structure of the data, their data types, sample values, we use `str(data)`
+- ![image](https://github.com/Ras-codes/Loans-Data-EDA-in-R/assets/164164852/35a2f06c-9d13-44c6-8414-e5760c31de41)
+- Checking cardinality / uniqueness of data with `sapply(data, function(x) length(unique(x)))`
+- Count of distinct values in each column
+- ![image](https://github.com/Ras-codes/Loans-Data-EDA-in-R/assets/164164852/0da32818-fabb-4341-8e99-cbecae4ac462)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
